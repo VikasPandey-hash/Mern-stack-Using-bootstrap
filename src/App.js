@@ -7,6 +7,7 @@ import NavBaar  from './components/NavBar';
 import Home from './components/Home';
 import Register from './components/register';
 import Edit from './components/Edit';
+import Details from './components/Detail';
 import {BrowserRouter ,Switch , Route} from "react-router-dom"
  
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route exact path ="/" component = {Home} />
         <Route exact path = "/register" component ={Register} />
         <Route exact path = "/edit/:id" component ={Edit} />
+        <Route exact path = "/view/:id" component ={Details} />
       </Switch>
       <NavBaar />
       </BrowserRouter>

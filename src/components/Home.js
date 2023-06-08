@@ -1,4 +1,7 @@
 import React from 'react'
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import CreateIcon from '@mui/icons-material/Create';
+import DeleteIcon from '@mui/icons-material/Delete';
 
 const Home = () => {
     return (
@@ -27,9 +30,9 @@ const Home = () => {
                             <td>Webdeveloper</td>
                             <td>8756378577</td>
                             <td className=" d-flex justify-content-between">
-                                <button className='btn btn-success'><i class="fas fa-eye"></i></button>
-                                <button className='btn btn-primary'><i class="fas fa-pen"></i> </button>
-                                <button className='btn btn-warning'><i class="fas fa-trash"></i></button>
+                                <button className='btn btn-success'><RemoveRedEyeIcon /></button>
+                                <button className='btn btn-primary'><CreateIcon/> </button>
+                                <button className='btn btn-warning'><DeleteIcon/></button>
                             </td>
                         </tr>
                         <tr>
@@ -39,9 +42,9 @@ const Home = () => {
                             <td>Ui/Ux engineer</td>
                             <td>8299236926</td>
                             <td className=" d-flex justify-content-between">
-                                <button className='btn btn-success'><i class="fas fa-eye"></i></button>
-                                <button className='btn btn-primary'><i class="fas fa-pen"></i> </button>
-                                <button className='btn btn-warning'><i class="fas fa-trash"></i></button>
+                            <button className='btn btn-success'><RemoveRedEyeIcon /></button>
+                                <button className='btn btn-primary'><CreateIcon/> </button>
+                                <button className='btn btn-warning'><DeleteIcon/></button>
                             </td>
                         </tr>
                         <tr>
@@ -49,11 +52,11 @@ const Home = () => {
                             <td>Robert</td>
                             <td>robertPattision@email.com</td>
                             <td>ML engineer</td>
-                            <td>82946228852</td>
+                            <td>8294622885</td>
                             <td className=" d-flex justify-content-between">
-                                <button className='btn btn-success'><i class="fas fa-eye"></i></button>
-                                <button className='btn btn-primary'><i class="fas fa-pen"></i> </button>
-                                <button className='btn btn-warning'><i class="fas fa-trash"></i></button>
+                            <button className='btn btn-success'><RemoveRedEyeIcon /></button>
+                                <button className='btn btn-primary'><CreateIcon/> </button>
+                                <button className='btn btn-warning'><DeleteIcon/></button>
                             </td>
                         </tr>
                        
